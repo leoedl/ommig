@@ -1,0 +1,111 @@
+body{
+    max-width: 90%;
+    height: 1500px;
+    background-image: url(hejsan.png);
+    padding: 10px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    
+}
+
+.huvud{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3px;
+    height: 6%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(37, 0, 0);
+    background-image: linear-gradient(to right, rgb(255, 228, 228), rgb(255, 158, 158));
+    border-radius: auto;
+    border-width: 15px;
+    border-color: black;
+    border-style: double;
+    padding: 3%;
+    z-index: 5;
+    width: 90%;
+    
+}   
+
+
+#leo{
+    position: relative;
+    width: 40%;
+    max-height: 60%;
+    border-radius: auto;
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+    left: 51%;
+    top: -13%;
+    
+    
+}
+
+
+.text, .lista, .entill{
+    position: relative;
+    
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    padding: 3%;
+    width: 40%;
+    border-radius: 20%;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    
+}
+
+.text{
+    background-color: rgb(255, 228, 228);
+    top: 20%;
+}
+
+.lista{
+    background-color: rgb(255, 228, 228);
+    left: 51%;
+    top: -5%;
+    height: 15%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.entill{
+    text-align: center;
+    font-size: 150%;
+    background-color: rgb(255, 228, 228);
+    top: -10%;
+    height: 14%;
+}
+
+#hus{
+    position: relative;
+    width: 40%;
+    max-height: 60%;
+    border-radius: auto;
+    border-color: black;
+    border-width: 10px;
+    border-style: double;
+    left: 3%;
+    top: -14%;
+}
+
+.hustext{
+    position: relative;
+    background-color: rgb(255, 228, 228);
+    text-align: center;
+    top: -8%;
+    left: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 10%;
+    z-index: 4;
+}
